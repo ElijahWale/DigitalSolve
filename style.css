@@ -222,7 +222,7 @@ footer h4{
     background-color: #000;
     border: 1px #fff solid;
     padding: 10px;
-    color: #fff;
+    color: #fff!important;
 }
 .form__name{
     margin: 10px 0;
