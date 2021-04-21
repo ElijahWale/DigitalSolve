@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+}
+section{
+    background-color: #E5E5E5;
+}
+h2{
+    font-size: 1.5rem;
+}
+header{
+    background-image: url("assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    overflow: hidden;
+    color: #fff;
+
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-link{
+    font-weight: bold!important;
+
+}
+.nav-item:hover{
+    border: 2px solid #FE555F;
+    
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.head-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+.head-text h1{
+    text-transform: uppercase;
+}
+.head-text span{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.head-text p{
+    font-size: 1.3rem;
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+}
+.btn-primary{
+    padding: 5px 15px;
+}
+.scroll_down i{
+    margin-top: 30px;
+    color: #fff;;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #7554D2;
+}
+
+/* header end */
+/* social section begin */
+#about{
+    background: #E5E5E5;
+    padding: 10px 0 70px;
+}
+.icon {
+    color: #333333;
+}
+.icon + .icon{
+    margin-left: 5px;
+}
+.about__img{
+    width: 400px;
+    width: 400px;
+}
+.about__details{
+    padding: 20px;
+}
+.about__details--text{
+    padding: 30px 0;
+}
+/* end of section */
+
+/* services section begins*/
+#services{
+    padding: 70px 0;
+    background-color: #fff;
+}
+.services--container{
+    width: 70%!important;
+    max-width: 700px;
+}
+#services .card{
+    margin: 20px 0;
+    max-width: 18rem;
+    text-align: center;
+    color: #fff;
+  
+}
+#services .card img{
+    height: 102px;
+    width: 102px;
+}
+.card--digital, .card--design{
+    background-color: #7554D2!important;
+}
+.card--branding, .card--content{
+    background-color: #e99f10!important;
+}
+.card--graphic, .card--optimization{
+    background-color: #FE555F!important;
+}
+/* PROJECT SECTION */
+#project{
+    padding: 70px 0;
+}
+
+.project__brand, .project__identity{
+    width: 400px;
+    height: 560px;
+}
+.project__fashion, .project__packaging{
+    width: 400px;
+    height:250px;
+}
+ .project__card, .project__app, .project__management{
+    width: 400px;
+    height:320px;
+}
+
+
+
+
+/* script style */
+nav.scrolled{
+    background: #000;
+}
+
+/* client review */
+.card__client{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#client{
+    padding: 80px 0;
+    background-color: #fff;
+    
+}
+.client--container{
+    width: 70%!important;
+    max-width: 700px;
+}
+#client .card{
+    text-align: center;
+    max-width: 18rem;
+    margin: 20px 0;
+    border: none;
+    border-radius: 10px;
+}
+#client .card-body{
+    background-color: rgba(255, 180, 35, 0.1);
+    
+}
+.carousel-indicators{
+   position: absolute;
+   bottom: -40px !important;
+
+}
+.carousel-indicators button{
+    background:#E3DDF6!important;
+    border: 0!important;
+}
+.carousel-indicators .active{
+    background-color:  #7554D2!important;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 70px 0;
+}
+footer h3{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+footer h4{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.footer-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-form input, textarea{
+    width: 100%;
+    background-color: #000;
+    border: 1px #fff solid;
+    padding: 10px;
+}
+.form__name{
+    margin: 10px 0;
+}
+.form__email{
+    margin-bottom: 10px;
+}
+.btn-footer{
+    background-color: #7554D2!important;
+    color: #fff!important;
+}
+.footer__social--icons{
+    display: flex;
+}
+.footer__icons i{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.footer__icons  + .footer__icons{
+    margin-left: 10px;
+}
+.footer__icons2{
+    margin-left: 10px;
+}
+
+@media (max-width: 450px){
+    .head-text span{
+        font-size: 3.8rem;
+    }
+    #project .col-md-4 + .col-md-4{
+        margin-top: 15px;
+    }
+    .carousel-item .card{
+        display: block !important;
+        width: 100% !important;
+    }
+    .btn-footer{
+        width: 100%;
+        font-size: 1.5rem!important;
+    }
+    footer .col-md-3{
+        margin-top: 15px;
+        text-align: center;
+    }
+    footer h4{
+        font-size: 1.3rem;
+    }
+    .footer__social--icons {
+       justify-content: center;
+    }
+}
+
